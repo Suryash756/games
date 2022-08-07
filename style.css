@@ -1,0 +1,72 @@
+body{
+    background-image: url("https://t3.ftcdn.net/jpg/00/88/98/18/360_F_88981880_YjJManMJ6hJmKr5CZteFJAkEzXIh8mxW.jpg");
+    background-size: cover;
+    
+}
+section{
+    border:ridge;
+    border-width:10px;
+    border-radius:15px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%); !important;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+-webkit-box-shadow: 16px -6px 14px 5px rgba(0,0,0,0.68); 
+box-shadow: 16px -6px 14px 5px rgba(0,0,0,0.68) !important;
+border-color:black !important;
+}
+#sec1{
+    float:none;
+}
+#sec2{
+    float:none;
+}
+input{
+    font-weight:bold;
+    color:black;
+    border:solid;
+    border-color:black !important;
+    border-width: 3px !important;
+    font-weight: bold !important;
+}
+h2{
+  color:black !important;
+  font-weight:bold !important;
+  text-decoration: underline !important;
+  font-family: 'BhuTuka Expanded One', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Mouse Memoirs', sans-serif;
+font-size:40px !important;
+}
+h3{
+    font-family: 'Mouse Memoirs', sans-serif !important;
+    color:black !important;
+    font-size:30px !important ;
+    text-decoration: underline !important;
+}
+
+h1{
+    color:black !important;
+    font-family: 'Lobster', cursive;
+font-family: 'Mouse Memoirs', sans-serif;
+text-decoration:underline;
+font-size:50px;
+margin-bottom:30px;
+}
+
+button{
+     height:35px;
+     width:100px;
+     border:solid;
+     border-color:black;
+     font-size:20px;
+     border-radius: 15px;
+     color:black;
+     background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+     transition:transform.2s;
+     font-weight:bold;
+     margin-top:-10px;
+}
+button:hover{
+    transform:scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
